@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e1d3c1; /* Creamy background color */
+    color: #3e2d26; /* Coffee brown text color */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #3e2d26; /* Coffee brown heading color */
+}
+
+.input-output {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: calc(100% - 20px); /* 50% width minus margin */
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid #7d645a; /* Coffee brown border */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    font-size: 16px;
+    color: #3e2d26; /* Coffee brown text color */
+}
+
+.output {
+    width: calc(50% - 10px); /* 50% width minus margin */
+    padding: 15px;
+    margin-left: 10px;
+    border: 2px solid #7d645a; /* Coffee brown border */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    font-size: 16px;
+    color: #3e2d26; /* Coffee brown text color */
+}
+
+
+.generate-btn {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 12px;
+    background-color: #7d645a; /* Coffee brown button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #eaded5; /* Light cream button color on hover */
+}
+
+/* Styling for named entity recognition visualization */
+.ner-visualization {
+    margin-top: 20px;
+}
+
+.ner-visualization img {
+    max-width: 100%;
+    height: auto;
+}
+.ner-visualization {
+    margin-top: 20px;
+}
+
+.ner-visualization img {
+    max-width: 100%;
+    height: auto;
+}

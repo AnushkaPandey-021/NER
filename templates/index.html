@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Named Entity Recognition</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Named Entity Recognition</h1>
+    
+    <div class="input-output">
+        <textarea id="input_text" class="input" rows="5" placeholder="Enter your text here"></textarea>
+        
+        <div class="generate-btn">
+            <button id="generate_button"> Generate </button>
+        </div>
+    </div>
+    
+    <!-- NER visualization section -->
+    <div id="ner_visualization" class="ner-visualization"></div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
